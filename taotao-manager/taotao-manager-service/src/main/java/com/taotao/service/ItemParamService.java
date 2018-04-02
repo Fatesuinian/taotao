@@ -8,5 +8,6 @@ public interface ItemParamService {
 
 	TaotaoResult getItemParamByCid(long cid);
 	TaotaoResult insertItemParam(TbItemParam itemParam);
-	EasyUIDataGridResult getItemParamList(int page, int rows);
+	//查询规格参数暂未实现
+	//EasyUIDataGridResult getItemParamList(int page, int rows);
 }

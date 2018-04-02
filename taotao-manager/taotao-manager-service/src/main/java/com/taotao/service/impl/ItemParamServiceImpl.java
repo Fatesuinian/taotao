@@ -51,7 +51,8 @@ public class ItemParamServiceImpl implements ItemParamService {
 		return TaotaoResult.ok();
 	}
 
-	@Override
+	//查询规格参数暂未实现
+	/*@Override
 	public EasyUIDataGridResult getItemParamList(int page, int rows) {
 		TbItemParamExample example = new TbItemParamExample();
 		//分页处理
@@ -64,6 +65,6 @@ public class ItemParamServiceImpl implements ItemParamService {
 		PageInfo<TbItemParam> pageInfo = new PageInfo<>(list);
 		result.setTotal(pageInfo.getTotal());
 		return result;
-	}
+	}*/
 
 }

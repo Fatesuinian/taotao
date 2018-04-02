@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="taotao" version="3.0">
-	<display-name>test</display-name>
+	<display-name>taotao-manager</display-name>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
@@ -36,7 +36,7 @@
 	
 	<!-- 注册SpringMVC中央调度器 -->
 	<servlet>
-		<servlet-name>springmvc</servlet-name>
+		<servlet-name>taotao-manager</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<!-- 如果不配置contextConfigLocation,springmvc配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
 		<init-param>
@@ -46,7 +46,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>springmvc</servlet-name>
+		<servlet-name>taotao-manager</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	

@@ -42,11 +42,12 @@ public class ItemParamController {
 		return result;
 	}
 	
-	@RequestMapping("/list")
+	//查询规格参数暂未实现
+	/*@RequestMapping("/list")
 	@ResponseBody
 	public EasyUIDataGridResult getItemParamList(Integer page, Integer rows) {
 		EasyUIDataGridResult result = itemsParamService.getItemParamList(page, rows);
 		return result;
-	}
+	}*/
 	
 }
