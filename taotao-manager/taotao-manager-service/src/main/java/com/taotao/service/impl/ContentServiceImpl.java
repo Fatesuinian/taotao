@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.taotao.bean.TbContent;
 import com.taotao.common.bean.TaotaoResult;
+import com.taotao.common.utils.HttpClientUtil;
 import com.taotao.mapper.TbContentMapper;
 import com.taotao.service.ContentService;
 
@@ -25,10 +26,10 @@ public class ContentServiceImpl implements ContentService {
 
 	@Autowired
 	private TbContentMapper contentMapper;
-	/*@Value("${REST_BASE_URL}")
+	@Value("${REST_BASE_URL}")
 	private String REST_BASE_URL;
 	@Value("${REST_CONTENT_SYNC_URL}")
-	private String REST_CONTENT_SYNC_URL;*/
+	private String REST_CONTENT_SYNC_URL;
 
 	@Override
 	public TaotaoResult insertContent(TbContent content) {
@@ -38,12 +39,12 @@ public class ContentServiceImpl implements ContentService {
 		content.setUpdated(new Date());
 		contentMapper.insert(content);
 
-		/*// 添加缓存同步逻辑
+		// 添加缓存同步逻辑
 		try {
 			HttpClientUtil.doGet(REST_BASE_URL + REST_CONTENT_SYNC_URL + content.getCategoryId());
 		} catch (Exception e) {
 			e.printStackTrace();
-		}*/
+		}
 
 		return TaotaoResult.ok();
 	}
