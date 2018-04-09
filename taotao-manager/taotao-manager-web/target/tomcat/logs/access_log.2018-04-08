@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Apr/2018:22:24:05 +0800] "GET / HTTP/1.1" 200 2475 http-bio-8080-exec-1 995
+127.0.0.1 - - [08/Apr/2018:22:24:07 +0800] "GET /item-list?_=1523197445376 HTTP/1.1" 200 6784 http-bio-8080-exec-7 164
+127.0.0.1 - - [08/Apr/2018:22:24:08 +0800] "GET /item/list?page=1&rows=30 HTTP/1.1" 200 11531 http-bio-8080-exec-8 688
+127.0.0.1 - - [08/Apr/2018:22:24:10 +0800] "GET /item-add?_=1523197445377 HTTP/1.1" 200 4633 http-bio-8080-exec-9 180
+127.0.0.1 - - [08/Apr/2018:22:24:10 +0800] "GET /js/kindeditor-4.1.10/kindeditor-all-min.js?_=1523197445378 HTTP/1.1" 200 179915 http-bio-8080-exec-10 28
+127.0.0.1 - - [08/Apr/2018:22:24:10 +0800] "GET /js/kindeditor-4.1.10/lang/zh_CN.js?_=1523197445379 HTTP/1.1" 200 8488 http-bio-8080-exec-1 10
+127.0.0.1 - - [08/Apr/2018:22:24:11 +0800] "POST /item/cat/list HTTP/1.1" 200 977 http-bio-8080-exec-1 71
+127.0.0.1 - - [08/Apr/2018:22:24:12 +0800] "POST /item/cat/list HTTP/1.1" 200 259 http-bio-8080-exec-1 7
+127.0.0.1 - - [08/Apr/2018:22:24:13 +0800] "POST /item/cat/list HTTP/1.1" 200 622 http-bio-8080-exec-9 10
+127.0.0.1 - - [08/Apr/2018:22:24:13 +0800] "GET /item/param/query/itemcatid/76 HTTP/1.1" 200 48 http-bio-8080-exec-9 33
+127.0.0.1 - - [08/Apr/2018:22:24:59 +0800] "GET /js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf?preventswfcaching=1523197498798 HTTP/1.1" 200 12787 http-bio-8080-exec-9 5
+127.0.0.1 - - [08/Apr/2018:22:25:04 +0800] "POST /pic/upload?dir=image HTTP/1.1" 404 949 http-bio-8080-exec-9 42
