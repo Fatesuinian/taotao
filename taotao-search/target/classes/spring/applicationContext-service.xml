@@ -16,5 +16,10 @@
 	http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
 	<!-- 扫描包加载service实现类 -->
-	<context:component-scan base-package="com.taotao.search.service"/>
+	<!-- <context:component-scan base-package="com.taotao.search.service"/> -->
+	<!-- 扫描包加载Service实现类和Dao所在的包,但是不要扫描Controller -->
+	<context:component-scan base-package="com.taotao.search">
+		<!-- 过滤掉Controller -->
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
 </beans>
