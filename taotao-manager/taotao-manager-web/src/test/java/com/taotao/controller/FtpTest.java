@@ -21,14 +21,14 @@ public class FtpTest {
 		ftpClient.login("ftpuser", "ftpuser");
 		//上传文件
 		//读取本地文件
-		FileInputStream inputSteam = new FileInputStream(new File("D:\\Git\\1.jpg"));
+		FileInputStream inputSteam = new FileInputStream(new File("D:\\Git\\123.jpg"));
 		//设置上传的路径
 		ftpClient.changeWorkingDirectory("/home/ftpuser/images");
 		//修改上传文件的格式
 		ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
 		//第一个参数：服务器端文档名
 		//第二个参数：	上传文档的inputSteam
-		ftpClient.storeFile("1.jpg", inputSteam);
+		ftpClient.storeFile("123.jpg", inputSteam);
 		//关闭连接
 		ftpClient.logout();
 	}
