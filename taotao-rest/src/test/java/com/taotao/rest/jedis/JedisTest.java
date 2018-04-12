@@ -17,7 +17,7 @@ public class JedisTest {
 	@Test
 	private void testJedisSingle() {
 		//创建一个jedis的对象。
-		Jedis jedis = new Jedis("192.168.25.153", 6379);
+		Jedis jedis = new Jedis("10.105.80.151", 6379);
 		//调用jedis对象的方法，方法名称和redis的命令一致。
 		jedis.set("key1", "jedis test");
 		String string = jedis.get("key1");

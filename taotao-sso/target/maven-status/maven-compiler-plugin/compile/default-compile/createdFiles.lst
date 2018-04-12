@@ -2,5 +2,6 @@ com\taotao\sso\service\UserService.class
 com\taotao\sso\dao\impl\JedisClientCluster.class
 com\taotao\sso\dao\impl\JedisClientSingle.class
 com\taotao\sso\dao\JedisClient.class
+com\taotao\sso\controller\PageController.class
 com\taotao\sso\service\impl\UserServcieImpl.class
 com\taotao\sso\controller\UserController.class

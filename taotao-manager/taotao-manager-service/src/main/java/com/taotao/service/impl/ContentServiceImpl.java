@@ -14,10 +14,7 @@ import com.taotao.service.ContentService;
 
 /**
  * 内容管理
- * <p>
- * Title:ContentServiceImpl
- * </p>
- * 
+ * <p>Title:ContentServiceImpl </p>
  * @author ChenYanZhang
  * @date 2018年4月3日
  */
